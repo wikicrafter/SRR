@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Add your existing styles */
+
+
+
+body {
+  background-color: rgb(7, 3, 34);
+  color: white;
+}
+
+a {
+  color: rgb(12, 217, 173);
+}
+
+a:hover {
+  color: rgb(126, 227, 141);
+}
+
+
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.subtitle1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.body1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
