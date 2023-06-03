@@ -3,7 +3,7 @@
 
 
 
-<p>The RRS project is a stunning and professional open-source web application designed to showcase your resume in an elegant and visually appealing manner. It empowers you to create a captivating online resume that leaves a lasting impression on potential employers or clients.</p>
+<p>The SRR project is a stunning and professional open-source web application designed to showcase your resume in an elegant and visually appealing manner. It empowers you to create a captivating online resume that leaves a lasting impression on potential employers or clients.</p>
 
 <p>Whether you are a job seeker, freelancer, or professional looking to showcase your skills and achievements, the RRS project is the perfect tool for creating a stunning online resume. Its visually appealing design, easy customization options, intuitive user interface, and dedication to open-source principles make it a standout choice for anyone aiming to impress potential employers or clients.</p>
 
