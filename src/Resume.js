@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Typography, Container, Grid } from '@mui/material';
+import { Button } from '@mui/material';
 
 const Resume = () => {
   useEffect(() => {
@@ -18,46 +19,54 @@ const Resume = () => {
     <Container maxWidth="sm">
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+        <div style={{ textAlign: 'center' }}>
             <img
-              src="./images/mwpnft.png"
+              src="https://ipfs.io/ipfs/QmdihpuXf1td9NPDcDNgYiZSyqqdXgB89i9FEYZY3wG5JV/673.png"
               alt="Profile"
               style={{
                 width: '150px',
                 height: '150px',
                 borderRadius: '50%',
                 objectFit: 'cover',
+                marginTop: '2rem',
               }}
             />
-          </div>
+      </div>
+
           <Typography variant="h4" align="center" gutterBottom>
-            Giga Anchabadze
+            John Doe
           </Typography>
           <Typography variant="subtitle1" align="center" gutterBottom>
-            Saburtalo, Tbilisi, Georgia
+             Living location
           </Typography>
           <Typography variant="subtitle1" align="center" gutterBottom>
-            Phone: (+995)000000000
+            Phone: (+...)000000000
           </Typography>
           <Typography variant="subtitle1" align="center" gutterBottom>
-            Email:{' '}
-            <a href="mailto:your@email.com">
-              example@email.com
-            </a>
-          </Typography>
+            {' '}
+            <Button
+              variant="contained"
+              color="primary"
+              size="small"
+              style={{ padding: '0.5rem 1rem' }}
+              href="mailto:g.anchabadze@protonmail.com"
+            >
+                Email me
+            </Button>
+            </Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h4" gutterBottom>
             Education
           </Typography>
           <Typography variant="body1" gutterBottom>
-            Georgian Technical University
+            Your University
           </Typography>
           <Typography variant="body1" gutterBottom>
             Bachelor's Degree in Computer Science & Network Engineering • 2016 - 2020
           </Typography>
           <Typography variant="body1" gutterBottom>
-            Total GPA: 3.0
+            Total GPA: 3.5
           </Typography>
         </Grid>
         <Grid item xs={12}>
@@ -65,7 +74,7 @@ const Resume = () => {
             Character
           </Typography>
           <ul>
-            <li>Punctuality</li>
+            <li>Punctualit</li>
             <li>Brainstorming</li>
             <li>Goal setting</li>
             <li>Prioritization</li>
@@ -77,7 +86,7 @@ const Resume = () => {
             <strong>Computer Science Field </strong>
           </Typography>
           <Typography variant="body1" gutterBottom>
-            I have several years of experience working as a junior information technology specialist and software developer. I excel at resolving computer, software, network, and web-related issues.
+              lore lorem ips lorem lorem ips ips ips ips ips ips ips
           </Typography>
           <Typography variant="h4" gutterBottom>
             Programming Languages
@@ -86,9 +95,6 @@ const Resume = () => {
             <li>C</li>
             <li>Python</li>
             <li>Ruby</li>
-            <li>JavaScript</li>
-            <li>React framework</li>
-            <li>Angular</li>
             <li>NodeJS</li>
             <li>PHP</li>
             <li>SQL</li>
@@ -99,6 +105,8 @@ const Resume = () => {
           <ul>
             <li>HTML</li>
             <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React framework</li>
             <li>Bootstrap</li>
             <li>jQuery</li>
           </ul>
@@ -114,7 +122,7 @@ const Resume = () => {
             Operating Systems
           </Typography>
           <Typography variant="body1" gutterBottom>
-            I have experience working with various operating systems, including multiple Linux distributions like Debian, Fedora, and Ubuntu. I have mostly worked with Windows operating systems.
+                lorem lorem lorem ipsum dolor sit amet, consectetur adip
           </Typography>
           <Typography variant="h4" gutterBottom>
             DevOps
@@ -127,32 +135,30 @@ const Resume = () => {
             Languages
           </Typography>
           <ul>
-            <li>Georgian</li>
+          
             <li>English</li>
-            <li>Russian</li>
+            
           </ul>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h4" gutterBottom>
             Projects
           </Typography>
+          
           <ul>
-            <li>
+
+
+          <li>
               <Typography variant="subtitle1">
-                <a href="https://example.com/project1">Project 1</a>
+              <a href="https://github.com/wikicrafter/SRR/">SRR</a> - Date:
               </Typography>
               <Typography variant="body1">
-                Description of Project 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis metus.
+              description lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ipsum
               </Typography>
             </li>
-            <li>
-              <Typography variant="subtitle1">
-                <a href="https://example.com/project2">Project 2</a>
-              </Typography>
-              <Typography variant="body1">
-                Description of Project 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu felis metus.
-              </Typography>
-            </li>
+
+
+
             {/* Add more projects as needed */}
           </ul>
         </Grid>
